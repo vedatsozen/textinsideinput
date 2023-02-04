@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    background-color: #9FCC2E;
+}
+
+form {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    padding:20px 10px;
+    box-shadow:0 0 10px black;
+    background-color:#0E402D;
+
+}
+
+h1 {
+    color: white;
+    letter-spacing: 4px;
+    font-size:25px;
+}
+
+#container1 {
+    margin: auto;
+    box-shadow: 0 0 20px black;
+    padding:5px;
+    border-radius: 4px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+}
+
+#container2 {
+    margin: auto;
+    box-shadow: 0 0 20px black;
+    padding: 7px;
+    border-radius: 4px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+}
+
+label {
+    position: absolute;
+    top: 5px;
+    left:10px;
+    color: #0E402D;
+    font-weight: bold;
+}
+
+input {
+    height: 50px;
+    width:280px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: #0E402D;
+
+}
+
+input#submit {
+    background-color: #9FCC2E;
+    color:#000000;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 4px;
+    font-weight:bold ;
+}
+
+input#submit:hover {
+    background-color:#badd61;
+}
+
+a {
+    color: #9FCC2E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+    margin:auto;
+    margin-top: 5px;
+    height:160px;
+    width:140px;
+}
+
+#submitted {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    padding: 10px 20px;
+    visibility: hidden;
+}
+
+#submitted > img {
+    height:40px;
+    width:40px;
+}
